@@ -5,29 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Friendly, dependable neighborhood mowing and yard care from Dodsons Yard Care."
+      content="Affordable neighborhood mowing and yard care from Eli, a Hunter Oaks teenager earning his own money."
     />
-    <title>Dodsons Yard Care</title>
+    <title>Eli's Yard Care | Hunter Oaks Lawn Mowing</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bowlby+One+SC&family=DM+Sans:wght@400;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Dodsons Yard Care home">
-        <span class="brand-mark" aria-hidden="true">
-          <i></i><i></i><i></i>
-        </span>
-        <span><strong>DODSONS</strong><small>YARD CARE</small></span>
+      <a class="brand" href="#top" aria-label="Eli Dodson home">
+        <span class="brand-mark" aria-hidden="true">E</span>
+        <span><strong>ELI DODSON</strong></span>
       </a>
       <nav aria-label="Main navigation">
         <a href="#services">Services</a>
         <a href="#pricing">Pricing</a>
-        <a href="#promise">Our promise</a>
         <a href="#contact">Contact</a>
       </nav>
       <a class="button button-dark" href="#contact">Get a lawn quote</a>
@@ -36,29 +33,32 @@
     <main id="top">
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Neighborhood lawn care</p>
-          <h1>A better lawn,<br />from someone<br />down the street.</h1>
+          <p class="eyebrow">Hunter Oaks neighborhood lawn care</p>
+          <p class="hero-question">Remember when every neighborhood had a kid mowing lawns?</p>
+          <h1>I’m bringing<br />that back.</h1>
           <p class="hero-intro">
-            Straightforward mowing and yard care built on trust, diligence,
-            and the kind of follow-through neighbors can count on.
+            Affordable yard care from a Hunter Oaks teenager trying to earn
+            his own money.
           </p>
           <div class="button-row">
-            <a class="button button-yellow" href="#pricing">See plans & pricing</a>
+            <a class="button button-yellow" href="#pricing">See the $25 weekly plan</a>
             <a class="button button-cream" href="tel:+15555555296">
               Call or text: (555) 555-LAWN
             </a>
           </div>
         </div>
-        <div class="yard-scene" aria-label="A tidy neighborhood home and lawn illustration">
-          <span class="sun"></span>
-          <div class="house">
-            <span class="roof"></span>
-            <span class="window window-left"></span>
-            <span class="window window-right"></span>
-            <span class="door"></span>
-          </div>
-          <div class="lawn-lines" aria-hidden="true"></div>
-        </div>
+        <figure class="yard-photo">
+          <picture>
+            <source media="(max-width: 640px)" srcset="assets/eli-yard-hero-900.webp" />
+            <img
+              src="assets/eli-yard-hero-1400.webp"
+              alt="A yard care worker pushing a wheelbarrow across a lawn"
+              width="1400"
+              height="933"
+              fetchpriority="high"
+            />
+          </picture>
+        </figure>
       </section>
 
       <section class="proof-bar" aria-label="Service highlights">
@@ -71,98 +71,79 @@
       <section class="section services" id="services">
         <div class="section-heading">
           <p class="eyebrow">What we can do</p>
-          <h2>A simple program for a lawn you’re proud of.</h2>
+          <h2>If your lawn is growing faster than your motivation, I’d love to help.</h2>
           <p>
-            Choose the level of help your yard needs. Every visit is handled
-            with care, consistency, and respect for your property.
+            Start with the weekly summer subscription or ask about extra help
+            when your yard needs it. Every visit gets a careful, tidy finish.
           </p>
         </div>
         <div class="card-grid four">
           <article class="service-card green">
             <span>01</span>
-            <h3>Mow & edge</h3>
-            <p>Consistent mowing, clean edging, and a tidy finish every time.</p>
+            <h3>Front & backyard mow</h3>
+            <p>A consistent weekly cut to keep the whole lawn looking cared for.</p>
           </article>
           <article class="service-card orange">
             <span>02</span>
-            <h3>Trim & clean</h3>
-            <p>Detail trimming around trees and fences, with clippings cleared.</p>
+            <h3>Lawn edge trimming</h3>
+            <p>Clean edges around walks, driveways, fences, and lawn borders.</p>
           </article>
           <article class="service-card blue">
             <span>03</span>
-            <h3>Seasonal reset</h3>
-            <p>Leaf cleanup and overgrowth control when the yard needs extra help.</p>
+            <h3>Blower clean up</h3>
+            <p>Clippings are blown from hard surfaces after every weekly service.</p>
           </article>
           <article class="service-card red">
             <span>04</span>
-            <h3>Lawn check-in</h3>
-            <p>Practical notes on problem spots, timing, and sensible next steps.</p>
+            <h3>Other yard services</h3>
+            <p>Need something beyond the weekly mow? Reach out for a simple quote.</p>
           </article>
-        </div>
-      </section>
-
-      <section class="promise" id="promise">
-        <div class="promise-intro">
-          <p class="eyebrow dark">Our promise</p>
-          <h2>Trust is built<br />one visit at a time.</h2>
-          <p>
-            You should not have to wonder whether your lawn person will show
-            up, communicate clearly, or care about the details.
-          </p>
-          <a class="button button-dark" href="#contact">Start with a quick quote</a>
-        </div>
-        <div class="value-list">
-          <article><b>01</b><div><h3>Trust</h3><p>Honest recommendations and clear expectations.</p></div></article>
-          <article><b>02</b><div><h3>Diligence</h3><p>Careful edges, clean surfaces, and no rushed finish.</p></div></article>
-          <article><b>03</b><div><h3>Consistency</h3><p>A dependable schedule and clear weather updates.</p></div></article>
-          <article><b>04</b><div><h3>Neighborhood care</h3><p>Friendly service from someone invested in the area.</p></div></article>
         </div>
       </section>
 
       <section class="section pricing" id="pricing">
         <div class="section-heading light">
-          <p class="eyebrow">Neighborhood pricing</p>
-          <h2>Clear plans. No mystery bill.</h2>
+          <p class="eyebrow">Simple neighborhood pricing</p>
+          <h2>Summer mowing subscription</h2>
           <p>
-            Starting prices for typical neighborhood lawns. We’ll confirm your
-            exact price after a quick look at the yard.
+            Pay monthly, get service weekly, and spend your summer enjoying the
+            yard instead of chasing it.
           </p>
         </div>
         <div class="card-grid three">
-          <article class="price-card">
-            <p class="plan-label">Simple upkeep</p>
-            <h3>The quick cut</h3>
-            <p class="price"><strong>$35</strong><span>per visit</span></p>
+          <article class="price-card featured subscription-card">
+            <p class="plan-label">Summer mowing subscription</p>
+            <h3>Weekly yard care</h3>
+            <p class="price"><strong>$25</strong><span>per week</span></p>
             <ul>
-              <li>Mow front and back</li>
-              <li>Edge walks and driveway</li>
-              <li>Blow off hard surfaces</li>
+              <li>Front and backyard mow</li>
+              <li>Lawn edge trimming</li>
+              <li>Blower clean up after</li>
+              <li>Pay monthly, service weekly</li>
             </ul>
-            <a class="button button-dark" href="#contact">Ask about this plan</a>
-          </article>
-          <article class="price-card featured">
-            <p class="plan-label">Most popular</p>
-            <h3>The full yard</h3>
-            <p class="price"><strong>$55</strong><span>per visit</span></p>
-            <ul>
-              <li>Everything in Quick Cut</li>
-              <li>Detail trim around obstacles</li>
-              <li>Bed-edge touch-up</li>
-              <li>Priority recurring schedule</li>
-            </ul>
-            <a class="button button-dark" href="#contact">Choose full yard</a>
+            <a class="button button-dark" href="#contact">Start weekly service</a>
           </article>
           <article class="price-card">
-            <p class="plan-label">One-time help</p>
-            <h3>The yard reset</h3>
-            <p class="price"><strong>$85</strong><span>starting at</span></p>
+            <p class="plan-label">Extra help</p>
+            <h3>Yard reset</h3>
+            <p class="price quote"><strong>Let’s talk</strong><span>custom quote</span></p>
             <ul>
               <li>Overgrowth or seasonal cleanup</li>
               <li>Detailed mow, edge, and trim</li>
-              <li>Leaf and debris collection</li>
-              <li>Simple lawn condition notes</li>
+              <li>One-time service</li>
             </ul>
-            <a class="button button-dark" href="#contact">Ask about this plan</a>
+            <a class="button button-dark" href="#contact">Ask about a reset</a>
+          </article>
+          <article class="price-card">
+            <p class="plan-label">Something else?</p>
+            <h3>Other services</h3>
+            <p class="price quote"><strong>Just ask</strong><span>custom quote</span></p>
+            <ul>
+              <li>Tell me what your yard needs</li>
+              <li>Get a clear price before work begins</li>
+              <li>Friendly neighborhood help</li>
+            </ul>
+            <a class="button button-dark" href="#contact">Request a quote</a>
           </article>
         </div>
       </section>
@@ -198,21 +179,21 @@
       </section>
 
       <section class="closing">
-        <p class="eyebrow">Why Dodsons?</p>
+        <p class="eyebrow">Why Eli's?</p>
         <h2>Your lawn should feel cared for.<br />So should you.</h2>
         <p>
-          Choose Dodsons Yard Care for straightforward neighborhood service,
-          dependable effort, and the reassurance of knowing who is taking care
-          of your yard.
+          Choose Eli’s Yard Care for affordable neighborhood service, dependable
+          effort, and the reassurance of knowing who is taking care of your yard.
         </p>
         <a class="button button-dark" href="#contact">Get your free lawn quote</a>
       </section>
     </main>
 
     <footer>
-      <strong>DODSONS YARD CARE</strong>
+      <strong>ELI'S YARD CARE</strong>
       <span>Mowing • Edging • Cleanup • Neighborhood care</span>
       <span>(555) 555-LAWN • hello@dodsonsyardcare.com</span>
+      <a class="photo-credit" href="https://unsplash.com/photos/LVJnIiIeyO0">Photo by FRAEM GmbH on Unsplash</a>
     </footer>
   </body>
 </html>
