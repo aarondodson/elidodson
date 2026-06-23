@@ -22,8 +22,6 @@ be used for preview deployments.
 
 ## Before launch
 
-- Replace the placeholder phone number in `index.html`.
-- Confirm the public email address in `index.html`.
 - Add the purchased domain under the Pages project's **Custom domains** screen.
 - Follow Cloudflare's displayed DNS instructions at the domain registrar.
-- Test the `www` and root-domain versions, HTTPS, phone, text, and email links.
+- Test the `www` and root-domain versions, HTTPS, and email links.
